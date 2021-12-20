@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lato';
+  font-family: "Lato";
 }
 
 h1,
@@ -9,7 +9,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 hr.star-light,
@@ -28,10 +28,10 @@ hr.star-dark {
 hr.star-light:after,
 hr.star-dark:after {
   position: relative;
-  top: -.8em;
+  top: -0.8em;
   display: inline-block;
   padding: 0 0.25em;
-  content: '\f005';
+  content: "\f005";
   font-family: FontAwesome;
   font-size: 2em;
 }
@@ -46,11 +46,11 @@ hr.star-light:after {
 }
 
 hr.star-dark {
-  border-color: #2C3E50;
+  border-color: #2c3e50;
 }
 
 hr.star-dark:after {
-  color: #2C3E50;
+  color: #2c3e50;
   background-color: white;
 }
 
@@ -100,7 +100,7 @@ section h2 {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 #mainNav .navbar-brand {
@@ -120,7 +120,8 @@ section h2 {
   color: #2a88b7;
 }
 
-#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+#mainNav .navbar-nav li.nav-item a.nav-link:active,
+#mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
 }
 
@@ -154,7 +155,9 @@ section h2 {
     color: #fff;
     background: #2a88b7;
   }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
     background: #2a88b7;
   }
@@ -179,12 +182,12 @@ header.masthead h1 {
 
 header.masthead h2 {
   font-size: 1.3rem;
-  font-family: 'Lato';
+  font-family: "Lato";
 }
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(6rem + 106px);
+    padding-top: calc(1rem + 106px);
     padding-bottom: 6rem;
   }
   header.masthead h1 {
@@ -219,7 +222,10 @@ header.masthead h2 {
   opacity: 1;
 }
 
-.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+.portfolio
+  .portfolio-item
+  .portfolio-item-caption
+  .portfolio-item-caption-content {
   font-size: 1.5rem;
 }
 
@@ -325,7 +331,7 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2C3E50;
+  background-color: #2c3e50;
   color: #fff;
 }
 
@@ -337,7 +343,9 @@ a {
   color: #2a88b7;
 }
 
-a:focus, a:hover, a:active {
+a:focus,
+a:hover,
+a:active {
   color: #2a88b7;
 }
 
@@ -354,11 +362,11 @@ a:focus, a:hover, a:active {
 }
 
 .text-primary {
-  color: #18BC9C !important;
+  color: #18bc9c !important;
 }
 
 .text-secondary {
-  color: #2C3E50 !important;
+  color: #2c3e50 !important;
 }
 
 .btn-primary {
@@ -366,17 +374,21 @@ a:focus, a:hover, a:active {
   border-color: #2a88b7;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
   background-color: #2a88b7;
   border-color: #2a88b7;
 }
 
 .btn-secondary {
-  background-color: #2C3E50;
-  border-color: #2C3E50;
+  background-color: #2c3e50;
+  border-color: #2c3e50;
 }
 
-.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
   background-color: #1a252f;
   border-color: #1a252f;
 }
