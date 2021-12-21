@@ -1,6 +1,6 @@
 <?php
 // Check for empty fields
-if(empty($_POST['name']) || empty($_POST['email']) || empty($_POST['phone']) || empty($_POST['message']) || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+if (empty($_POST['name']) || empty($_POST['email']) || empty($_POST['phone']) || empty($_POST['message']) || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
   http_response_code(500);
   exit();
 }
@@ -12,11 +12,10 @@ $message = strip_tags(htmlspecialchars($_POST['message']));
 
 // Create the email and send the message
 $to = "mauriciosm95@gmail.com";
-$subject = "Formulário de contato do site:  $name";
-$body = "Recebida uma nova mensagem do formul�rio de contato do meu site.\n\n"."Esses s�o os detalhes:\n\nNome: $name\n\nE-mail: $email\n\nTelefone: $phone\n\nMensagem:\n$message";
-$header = "Enviado por: maumenezes.ml\n";
+$subject = "Formulário de contato do site: $name";
+$body = "Recebida uma nova mensagem do formulário de contato do meu site.\n\n" . "Esses são os detalhes:\n\nNome: $name\n\nE-mail: $email\n\nTelefone: $phone\n\nMensagem:\n$message";
+$header = "Enviado por: mau-me.github.io/\n";
 $header .= "Responder a: $email";
 
-if(!mail($to, $subject, $body, $header))
+if (!mail($to, $subject, $body, $header))
   http_response_code(500);
-?>
