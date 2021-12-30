@@ -185,6 +185,20 @@ header.masthead h2 {
   font-family: "Lato";
 }
 
+header.myMasthead {
+  padding-bottom: 1rem;
+}
+
+header.myMasthead h1 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+header.myMasthead h2 {
+  font-size: 1.3rem;
+  font-family: "Lato";
+}
+
 @media (min-width: 992px) {
   header.masthead {
     padding-top: calc(1rem + 106px);
@@ -200,14 +214,15 @@ header.masthead h2 {
 }
 
 .portfolio {
+  padding-top: 1rem;
   margin-bottom: -15px;
 }
 
 .portfolio .portfolio-item {
   position: relative;
   display: block;
-  max-width: 25rem;
-  margin-bottom: 15px;
+  max-width: 20rem;
+  margin-bottom: 1px;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption {
@@ -371,7 +386,7 @@ a:active {
 
 .btn-primary {
   background-color: #2a88b7;
-  border-color: #2a88b7;
+  border-color: #ffffff;
 }
 
 .btn-primary:hover,
