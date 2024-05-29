@@ -172,7 +172,7 @@ url = "about/"
 [[languages.en.menu.main]]
 name = "Resume"
 weight = 4
-url = "https://raw.githubusercontent.com/mau-me/maume_curriculo/808f5e8d12ca78e6edf715efefaeeba35c0f9813/cv.pdf"
+url = "https://github.com/mau-me/maume_curriculo/raw/main/cv.pdf"
 
 [[languages.en.menu.main]]
 name = "Contact"
@@ -207,7 +207,7 @@ url = "about/"
 [[languages.pt-br.menu.main]]
 name = "Currículo"
 weight = 4
-url = "https://raw.githubusercontent.com/mau-me/maume_curriculo/808f5e8d12ca78e6edf715efefaeeba35c0f9813/cv.pdf"
+url = "https://github.com/mau-me/maume_curriculo/raw/main/cv.pdf"
 
 [[languages.pt-br.menu.main]]
 name = "Contato"
