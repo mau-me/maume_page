@@ -1,4 +1,4 @@
-baseURL = "https://maume.me/"
+baseURL = "https://mau-me.github.io/maume_page/"
 title = "Maume"
 theme = "hugo-coder"
 languageCode = "en"
@@ -172,7 +172,7 @@ url = "about/"
 [[languages.en.menu.main]]
 name = "Resume"
 weight = 4
-url = "https://github.com/mau-me/maume_curriculo/raw/main/cv.pdf"
+url = "https://github.com/mau-me/_curriculo/raw/main/cv.pdf"
 
 [[languages.en.menu.main]]
 name = "Contact"
@@ -181,7 +181,7 @@ url = "contact/"
 
 [languages.pt-br]
 languageName = ":brazil:"
-title = "maume"
+title = ""
 
 [languages.pt-br.params]
 author = "Mauricio Menezes"
@@ -207,7 +207,7 @@ url = "about/"
 [[languages.pt-br.menu.main]]
 name = "Currículo"
 weight = 4
-url = "https://github.com/mau-me/maume_curriculo/raw/main/cv.pdf"
+url = "https://github.com/mau-me/_curriculo/raw/main/cv.pdf"
 
 [[languages.pt-br.menu.main]]
 name = "Contato"
